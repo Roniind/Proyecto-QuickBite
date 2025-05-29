@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurantes - QuickBite</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="container">
+    <h2>Restaurantes Disponibles</h2>
+    <ul id="lista-restaurantes"></ul>
+</div>
+
+<script>
+fetch('../backend/api/obtener_restaurantes.php')
+    .then(response => response.json())
+    .then(data => {
+        const lista = document.getElementById('lista-restaurantes');
+        data.forEach(rest => {
+            const item = document.createElement('li');
+            item.textContent = `${rest.nombre} - ${rest.categoria} (${rest.ubicacion})`;
+            lista.appendChild(item);
+        });
+    });
+</script>
+</body>
+</html>
