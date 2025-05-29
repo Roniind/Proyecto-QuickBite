@@ -1,0 +1,7 @@
+# Seguridad en la nube
+
+- Uso de IPs privadas en el entorno cloud.
+- Acceso restringido mediante VPN o firewall.
+- Base de datos cifrada.
+- Autenticación de usuarios con hashing de contraseñas.
+- Aplicación de políticas Zero Trust.
