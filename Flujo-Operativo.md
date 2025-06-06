@@ -1,6 +1,6 @@
 # 📦 Flujo Operativo – QuickBite
 
-Este documento describe cómo funciona el sistema QuickBite desde la perspectiva operativa, conectando al cliente, backend, base de datos, repartidor y el administrador.
+En este archivo se  describe cómo funciona el sistema QuickBite desde la perspectiva operativa, conectando al cliente, backend, base de datos, repartidor y el administrador.
 
 ---
 
